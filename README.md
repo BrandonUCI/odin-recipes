@@ -1,2 +1,2 @@
 # odin-recipes
-A website that houses webpages that lead to instructions on how to achieve a certain thing.
+A website that houses webpages that leading to instructions on how to make a certain food.
