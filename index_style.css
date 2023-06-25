@@ -1,11 +1,50 @@
+
 body {
-    background-color: #FFF4FA;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Noto Sans Symbols', Helvetica, sans-serif;
+}
+
+header {
+    box-sizing: border-box;
 }
 
 h1 {
-    color: #16262E;
-    font-size: 80px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: -80px; /*Manually styling here. Not sure how I'm supposed to get the odin logo on the same horizontal axis without doing this. */
+    padding: 10px 20px;
+    width: auto;
+    color: #252D54;
+    background-color: #F1DAC4;
+    font-size: 70px;
+    font-family: "Montaserrat", sans-serif;
+}
+
+.odin-logo {
+    display: flex;
+    max-width: 70px;
+    margin-left: auto;
+    justify-content: right;
+    opacity: 60%;
+}
+
+.odin-logo:hover {
+    opacity: 100%;
+}
+
+.food-images {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.food-images img {
+    display:inline-block;
+    max-width: 33%;
+    height: auto;
+    width: auto;
+}
+
+.food-images img:hover {
+    opacity: 80%;
 }
 
 h2 {
@@ -17,3 +56,4 @@ p {
     color: #3C7A89;
     font-size: 30px;
 }
+
